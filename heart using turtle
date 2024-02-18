@@ -1,0 +1,22 @@
+import turtle
+
+pen = turtle.Turtle()
+
+
+def color():
+    pen.fillcolor('red')
+    pen.begin_fill()
+    pen.width(2)
+
+for i in range (500):
+    color()
+    pen.home()
+    pen.left(60)
+    pen.forward(130)
+    pen.circle(68,210)
+    pen.circle(-68,-210)
+    pen.forward(-229)
+    pen.home()
+
+
+
